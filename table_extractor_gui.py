@@ -265,11 +265,11 @@ class ExtractorWindow(QMainWindow):
         self.cmb_region.setEditable(False)
         self.cmb_state.setEditable(False)
 
-        cols_layout.addWidget(QLabel("City:"), 0, 0)
+        cols_layout.addWidget(QLabel("Column-1:"), 0, 0)
         cols_layout.addWidget(self.cmb_city, 0, 1)
-        cols_layout.addWidget(QLabel("Region:"), 1, 0)
+        cols_layout.addWidget(QLabel("Column-2"), 1, 0)
         cols_layout.addWidget(self.cmb_region, 1, 1)
-        cols_layout.addWidget(QLabel("State:"), 2, 0)
+        cols_layout.addWidget(QLabel("Column-3"), 2, 0)
         cols_layout.addWidget(self.cmb_state, 2, 1)
 
         # Other columns list
